@@ -1,0 +1,225 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2B3138;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    border: 1px solid black;
+    height: 10vh;
+    background-color: #23292E;
+    color: white;
+
+}
+
+.head{
+    margin-top: 10px;
+}
+
+
+.signInPage{
+    font-size: 20px;
+    /* font-size: 14px!important; */
+    /* border: 1px solid #D1D5DA; */
+    color: #D1D5DA;
+    float: right;
+    /* padding: 5px 10px; */
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius: 6px;
+    box-sizing: border-box;    
+}
+.signUpPage{
+    font-size: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--color-text-white)!important;
+    
+}
+.topBtn{
+    text-decoration: none;
+    color: var(--color-text-white)!important;
+    padding: 8px 10px;
+    border: 1px solid #D1D5DA;
+    border-radius: 6px;
+    margin-top: 1% ;
+
+
+
+}
+
+.topBtn:hover{
+    border: 1px solid #23292E ;
+}
+
+
+/* .main{ */
+    /* border: 1px solid black; */
+ /* width: 50%; */
+    /* margin-top: 3%;  */
+     /* background-colopxr: #2B3138; */
+
+/* } */
+
+.formSignup{
+    margin-top: 3%;
+    width: 30%;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: #FAFCFE;
+    color: #78797D;
+    border-radius: 5px;
+    padding: 15px;
+    /* line-height: 2em; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputS{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 11px;
+    width: 220px;
+    /* width: 170px; */
+    border-color: #ccd0d5;
+    border-radius: 5px;
+}
+
+.radioBtn{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 11px;
+}
+
+.signUpBtn{
+    background-color: #00a400;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    height: 46px;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    line-height: 126%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+                                                /* sign in page csss */
+
+
+
+
+
+
+.formSignin{
+    margin-top: 3%;
+    width: 30%;
+    height: 30vh;
+    border: 1px solid black;
+    background-color: #FAFCFE;
+    color: #78797D;
+    border-radius: 5px;
+    padding: 15px;
+    line-height: 4em;
+    /* line-height: 2em; */
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.inputL{
+    font-size: 15px;
+    line-height: 20px;
+    /* padding: 21px; */
+    padding: 11px;
+    width: 220px;
+    /* width: 170px; */
+    border-color: #ccd0d5;
+    border-radius: 5px;
+}
+
+.signinBtn{
+    /* background-color: #23292E; */
+    background-color: #166FE5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    height: 46px;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    /* min-width: 194px; */
+    min-width: 244px;
+    padding: 7px 20px;
+    text-align: center;
+    line-height: 126%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.newResult{
+    margin: 2%;
+    width: 70%;
+    height: 10vh;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 2% 4%;
+    /* margin: 5%; */
+}
+
+
+
+            /* third page  */
+
+
+
+
+
+.logOut{
+    font-size: 20px;
+    color: #D1D5DA;
+    margin-left: 2%;
+    /* padding: 5px 10px; */
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius: 6px;
+    box-sizing: border-box;   
+}
+
+.profileName{
+    font-size: 20px;
+    color: #D1D5DA;
+    margin-left: 2%;
+    padding: 5px 10px;
+    float: right;
+    margin-right: 2%;
+    margin-top: -2%;
+    border-radius: 6px;
+    box-sizing: border-box;  
+    border: 1px solid #D1D5DA;
+
+}
+
+
+
+.profile{
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assginment 15-Dec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="head">
+            <div class="signInPage">
+                <a class="topBtn" href="signin.html">
+                    Sign in</a>
+
+            </div>
+            <div class="signUpPage">
+                <a class="topBtn" href="">
+                    Sign up
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <form action="#" onsubmit="return signUpForm()">
+            <table class="formSignup">
+                <tr>
+                    <td></td>
+                    <td>
+                        <div id="show">
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name :</td>
+                    <td>
+                        <input id="names" class="inputS" type="text" required placeholder="Enter your Name">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td>
+                        <input id="emails" class="inputS" type="email" required placeholder="Enter your Email">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Gender">
+                            Gender:
+                        </label>
+                    </td>
+                    <td>
+                        <select class="inputS" name="gender" id="gender">
+                            <option class="inputS" value="Male">Male</option>
+                            <option class="inputS" value="Female">Female</option>
+                        </select>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>Phone No:</td>
+                    <td>
+                        <input id="phone" class="inputS" type="number" required placeholder="Enter your Phone number">
+
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td>Nationality</td>
+                    <td>
+                        <input id="Nationality" class="inputS" type="text" required
+                            placeholder="Enter your Nationality">
+
+                    </td>
+                </tr> -->
+                <tr></tr>
+                <tr>
+                    <td>Password :</td>
+                    <td>
+                        <input id="passwords" class="inputS" type="password" required placeholder="Enter your Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <button class="signUpBtn">Sign Up</button></td>
+                </tr>
+                
+            </table>
+        </form>
+
+    </div>
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+
+
+</html>
